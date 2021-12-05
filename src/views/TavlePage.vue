@@ -1,7 +1,7 @@
 <template>
     <div>
         <!--导出按钮-->
-        <el-button type="primary" style="margin:20px;" @click="exportExcelSelect">エクスポート</el-button>
+        <el-button type="primary" style="margin:20px;" @click="exportExcelSelect">导出Excel</el-button>
         <!--原始表格-->
         <el-table
             :data="tableData"
@@ -21,7 +21,7 @@
                     label="姓名"
             >
             </el-table-column>
-            <el-table-column label="アドレス">
+            <el-table-column label="详细地址">
                 <el-table-column
                         prop="province"
                         label="省份"
@@ -66,7 +66,7 @@
                         label="姓名"
                 >
                 </el-table-column>
-                <el-table-column label="アドレス">
+                <el-table-column label="详细地址">
                     <el-table-column
                             prop="province"
                             label="省份"
